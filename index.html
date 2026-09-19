@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한중 한국어 공부방</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🇰🇷 한중 한국어 공부방 🇨🇳</div>
+    <p>중국어로 쉽게 배우는 한국어</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">Korean Study</span>
+      <h1>오늘도 한국어를<br>재미있게 공부해요!</h1>
+      <p>한글 · 단어 · 회화 · 퀴즈를 한곳에서 공부해요.</p>
+    </section>
+
+    <section class="cards">
+      <button class="card" onclick="showSection('hangul')">
+        <span>🔤</span><strong>한글 배우기</strong><small>자음과 모음</small>
+      </button>
+      <button class="card" onclick="showSection('words')">
+        <span>📚</span><strong>단어 공부</strong><small>한국어 ↔ 中文</small>
+      </button>
+      <button class="card" onclick="showSection('conversation')">
+        <span>🗣️</span><strong>기초 회화</strong><small>자주 쓰는 표현</small>
+      </button>
+      <button class="card" onclick="showSection('quiz')">
+        <span>🎮</span><strong>퀴즈</strong><small>배운 내용을 확인해요</small>
+      </button>
+    </section>
+
+    <section id="content" class="content">
+      <h2>무엇부터 공부할까요?</h2>
+      <p>위의 메뉴를 눌러 공부를 시작해 보세요 😊</p>
+    </section>
+  </main>
+
+  <footer>나만의 한국어 공부 사이트 · Made for family 💛</footer>
+  <script src="script.js"></script>
+</body>
+</html>
